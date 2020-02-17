@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">繪圖範例</string>
+    
+     <string name="button_geometry">繪制幾何圖形</string>
+     <string name="button_text">繪制字符串</string>
+     <string name="button_bitmap">繪製圖像</string>
+     <string name="button_matrix_zoom">圖像的旋轉與縮放</string>
+     <string name="button_shader">圖像裁剪與渲染</string>
+     
+     <string name="msg_arc">弧線</string>
+     <string name="msg_rect">矩形</string>
+     <string name="msg_circle">圓形</string>
+     <string name="msg_oval">橢圓</string>
+     <string name="msg_path">多邊型</string>
+     <string name="msg_shader">圖像裁剪</string>
+     <string name="msg_linear">線性漸變</string>
+     <string name="msg_compose">混合漸變</string>
+     <string name="msg_radial">放射性漸變</string>
+     <string name="msg_sweep">梯度漸變</string>
+     
+     <string name="draw_text_en">Android</string>
+     <string name="draw_text_cn">繪制文字</string>
+     
+</resources>

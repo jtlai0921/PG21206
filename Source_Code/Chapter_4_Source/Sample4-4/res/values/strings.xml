@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">通知範例</string>
+    <string name="txt">文字通知</string>
+    <string name="sound">聲音通知</string>
+    <string name="vibrate">振動通知</string>
+    <string name="led">LED通知</string>
+    <string name="close">關閉通知</string>
+</resources>

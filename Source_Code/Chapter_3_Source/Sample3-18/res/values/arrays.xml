@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="items">
+        <item>第一列</item>
+        <item>第二列</item>
+        <item>第三列</item>
+        <item>第四列</item>
+        <item>第五列</item>
+        <item>第六列</item>
+	</string-array>
+</resources>

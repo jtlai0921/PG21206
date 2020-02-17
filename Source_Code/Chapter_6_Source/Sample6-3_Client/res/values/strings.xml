@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">簡易聊天器</string>
+    
+    <string name="button_connect">連　接</string>
+    <string name="button_clear">清　除</string>
+    <string name="button_send">發　送</string>
+    <string name="button_exit">離　開</string>
+    
+    <string name="nick_name">暱稱：</string>
+    <string name="send_message_hint">在此輸入發送的消息</string>
+    
+    <string name="error_msg_unknow_host">伺服器地址無效.</string>
+    <string name="error_msg_lost_connect">與伺服器失去連接.</string>
+    <string name="error_msg_cannot_connect">連接伺服器失敗.</string>
+    
+</resources>

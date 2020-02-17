@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google授權服務範例</string>
+    <string name="result_dialog_title">Google授權服務返回結果</string>
+    
+    <string name="label_goole_email">Google帳戶名：</string>
+    <string name="label_password">登錄密碼：</string>
+    <string name="label_auth">授權權杖：</string>
+    
+    <string name="button_login">登　錄</string>
+    <string name="button_clear">清　除</string>
+    <string name="button_submit">確　定</string>
+    <string name="button_cancel">取　消</string>
+    
+    <string name="msg_logining">登錄驗證中...</string>
+    <string name="msg_login_success">登錄成功！</string>
+    <string name="msg_login_failure">登錄失敗！</string>
+    <string name="msg_unknown_error">未知錯誤！</string>
+    
+</resources>

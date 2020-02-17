@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="slient">靜音</string>
+    <string name="up">增加音量</string>
+    <string name="down">減少音量</string>
+    <string name="max">最大音量</string>
+    <string name="app_name">音量範例</string>
+</resources>

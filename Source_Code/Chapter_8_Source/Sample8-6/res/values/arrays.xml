@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="language_label">
+        <item>英语</item>
+        <item>法语</item>
+        <item>德语</item>
+        <item>俄语</item>
+        <item>韩语</item>
+        <item>日语</item>
+        <item>拉丁语</item>
+        <item>意大利语</item>
+        <item>中文(简体)</item>
+        <item>中文(繁体)</item>
+	</string-array>
+	
+	<string-array name="language_value">
+		<item>en</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>ru</item>
+        <item>ko</item>
+        <item>ja</item>
+        <item>la</item>
+        <item>it</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+	</string-array>
+</resources>

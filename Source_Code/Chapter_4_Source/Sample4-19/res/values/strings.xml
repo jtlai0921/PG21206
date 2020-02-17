@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">傳感器範例</string>
+    <string name="acc">平均重力加速度：</string>
+    <string name="light">光照強度：</string>
+    <string name="tem">電池溫度：</string>
+</resources>

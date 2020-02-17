@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Preferences使用範例</string>
+    <string name="app_name">Preferences的使用</string>
+    <string name="label_input">請輸入要儲存的內容：</string>
+    <string name="button_save_pref">儲　存</string>
+    <string name="button_load_pref">讀　取</string>
+    
+    <string name="label_load">從Preferences讀取的內容：</string>
+    
+    <string name="msg_save_success">數據儲存成功</string>
+    <string name="msg_save_failure">數據儲存失敗</string>
+</resources>

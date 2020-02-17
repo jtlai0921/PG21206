@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Bundle共享數據範例</string>
+    <string name="app_name">Bunlde範例</string>
+    <string name="label">請輸入要共享的數據：</string>
+    <string name="button_display">顯示共享數據</string>
+    
+    <string name="display_label">您輸入的數據為：</string>
+</resources>

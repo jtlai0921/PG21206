@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display">這是一個按鈕範例</string>
+    <string name="display_btn_clicked">按鈕被點擊了</string>
+    <string name="display_btn_long_clicked">長按了按鈕</string>
+    <string name="display_imgbtn_clicked">圖片按鈕被點擊了</string>
+    <string name="btn">按鈕</string>
+    <string name="btn_checked">開</string>
+    <string name="btn_unchecked">關</string>
+    <string name="app_name">按鈕範例</string>
+</resources>

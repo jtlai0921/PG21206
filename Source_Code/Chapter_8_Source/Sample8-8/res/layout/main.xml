@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:id="@+id/l1" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/label_chart_type"
+			android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip"
+			android:layout_marginRight="3.0dip" android:textAppearance="?android:textAppearanceMedium"
+			android:layout_weight="1.0" />
+
+		<Spinner android:id="@+id/spinner_chart_type"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="5.0dip" android:layout_marginRight="3.0dip"
+			android:layout_weight="2.0" />
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/l2" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:id="@+id/button_draw" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginLeft="3.0dip"
+			android:layout_marginTop="5.0dip" android:layout_marginRight="3.0dip"
+			android:text="@string/button_draw" android:layout_weight="1.0"
+			android:textAppearance="?android:textAppearanceMedium" />
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/l3" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="25.0dip">
+		<ImageView android:id="@+id/result_chart"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip"
+			android:layout_marginRight="3.0dip" />
+	</LinearLayout>
+</LinearLayout>

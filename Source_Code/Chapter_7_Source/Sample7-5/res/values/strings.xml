@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">視頻錄製範例</string>
+    
+    <string name="button_record">開始錄製</string>
+    <string name="button_stop">停止錄製</string>
+    
+    <string name="msg_recording">正在錄製視頻...</string>
+    <string name="msg_stopped">已停止錄製</string>
+</resources>

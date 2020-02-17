@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="display_sex">性別:</string>
+    <string name="radio_male">男</string>
+    <string name="radio_famale">女</string>
+    <string name="display_agree">是否同意:</string>
+    <string name="radio_agree">同意</string>
+    <string name="radio_disagree">不同意</string>
+    <string name="not_group">以下按鈕未分組</string>
+    <string name="radio_01">未分組按鈕一</string>
+    <string name="radio_02">未分組按鈕二</string>
+    <string name="app_name">單選按鈕</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">滾動範例</string>
+    <string name="vertical">垂直滾動</string>
+    <string name="horizontal">水平滾動</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="dialog_btn_Negative">否</string>
+	<string name="dialog_btn_Neutral">取消</string>
+	<string name="dialog_btn_Positive">是</string>
+	<string name="dialog_alert1">警告對話框1</string>
+	<string name="dialog_alert2">警告對話框2</string>
+	<string name="dialog_progress">進度對話框</string>
+	<string name="dialog_date_picker">日期選擇對話框</string>
+	<string name="dialog_time_picker">時間選擇對話框</string>
+	<string name="dialog_title">對話框標題</string>
+	<string name="dialog_content">對話框內容</string>
+    <string name="app_name">特殊對話框範例</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt">Hello UPPower, Animation~~</string>
+    <string name="app_name">動畫範例</string>
+    <string name="frame">Frame Animation</string>
+    <string name="tween">Tween Animation</string>
+    <string name="play">播放</string>
+</resources>

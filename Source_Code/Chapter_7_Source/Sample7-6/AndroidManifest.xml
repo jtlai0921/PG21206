@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.uppowerstudio.chapter7.graphics" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:theme="@android:style/Theme.Light">
+		<activity android:name=".MainActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".GeometryActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="action_geometry" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".TextActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="action_text" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".BitmapActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="action_bitmap" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".MatrixZoomActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="action_matrix_zoom" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".ShaderActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="action_shader" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+	</application>
+	<uses-sdk android:minSdkVersion="7" />
+
+</manifest> 

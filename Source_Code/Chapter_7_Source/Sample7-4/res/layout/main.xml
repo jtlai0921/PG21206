@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:id="@+id/l1" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+		android:layout_alignParentBottom="true">
+		<Button android:id="@+id/button_preview" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/button_preview"
+			android:layout_weight="1.0" />
+		<Button android:id="@+id/button_take_photo"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/button_take" android:layout_weight="1.0" />
+
+	</LinearLayout>
+
+	<SurfaceView android:id="@+id/surface_view"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_gravity="center" android:layout_above="@id/l1"
+		android:layout_marginBottom="5.0dip">
+	</SurfaceView>
+
+</RelativeLayout>

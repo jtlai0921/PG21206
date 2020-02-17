@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:layout_gravity="center_horizontal">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/sample_explain"
+		android:gravity="center" />
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="25.0dip">
+
+		<!-- 定义按钮 -->
+		<Button android:id="@+id/start_activity_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/button_start_activity" />
+		
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<Button android:id="@+id/start_service_button"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/button_start_service" android:layout_weight="1.0"/>
+			<Button android:id="@+id/stop_service_button"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/button_stop_service" android:layout_weight="1.0"/>
+		</LinearLayout>
+		
+		<Button android:id="@+id/call_dial_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/button_call_dial" />
+			
+		<Button android:id="@+id/call_phone_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/button_call_phone" />
+		
+		<Button android:id="@+id/send_sms_button" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/button_send_sms" />
+		
+		<Button android:id="@+id/send_email_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/button_send_email" />
+		
+		<Button android:id="@+id/market_search_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/button_market_search" />
+		
+	</LinearLayout>
+
+
+</LinearLayout>

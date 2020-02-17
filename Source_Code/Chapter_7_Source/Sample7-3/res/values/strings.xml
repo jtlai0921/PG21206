@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">簡易視訊播放器</string>
+
+	<string name="button_video_view">VideoView方式播放視訊</string>
+	<string name="button_media_player">MediaPlayer方式播放視訊</string>
+
+	<string name="play_completion">播放完畢！</string>
+	<string name="msg_stopped">停止播放！</string>
+</resources>

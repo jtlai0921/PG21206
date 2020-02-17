@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wi-Fi網絡信息查看</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="submit">確定</string>
+    <string name="cancel">取消</string>
+    <string name="button_scan">掃描Wi-Fi網絡熱點</string>
+    <string name="button_view">查看已連結的Wi-Fi網絡信息</string>
+    <string name="no_any_wifi">未發現任何Wi-Fi網絡</string>
+    
+    <string name="disabled_wifi_message">Wi-Fi已被關閉，您是否要開啓它？</string>
+    <string name="enable_wifi_success">Wi-Fi已成功開啓</string>
+    <string name="enable_wifi_failure">開啓Wi-Fi失敗</string>
+    <string name="scan_tip">單擊列表中的Wi-Fi掃描結果項進行詳細信息的查看</string>
+    
+    <string name="title_ssid">Wi-Fi名稱</string>
+    <string name="title_signal_strength">信號強度</string>
+    <string name="title_frequency">信號頻率</string>
+    <string name="title_encypt">加密</string>
+    
+    <string name="none_connected_message">尚未發現任何已連結Wi-Fi信息.\n您是否進行連結操作？</string>
+    
+    <string name="wifi_info_ssid">Wi-Fi名稱(SSID):</string>
+    <string name="wifi_info_bssid">接入點地址(BSSID):</string>
+    <string name="wifi_info_mac">實體地址(MAC):</string>
+    <string name="wifi_info_rssi">信號強度(RSSI):</string>
+    <string name="wifi_info_linkspeed">鏈接速度:</string>
+    <string name="wifi_info_netId">網絡ID:</string>
+    <string name="wifi_info_hidden_ssid">是否隱藏SSID:</string>
+    <string name="wifi_info_ipaddr">IP地址：</string>
+    <string name="wifi_info_supplicant">請求者狀態：</string>
+    
+    <string name="scan_result_ssid">Wi-Fi名稱(SSID):</string>
+    <string name="scan_result_bssid">接入點地址(BSSID):</string>
+    <string name="scan_result_signal_strength">信號強度:</string>
+    <string name="scan_result_frequency">信號頻率:</string>
+    <string name="scan_result_encypt">加密方式:</string>
+    
+    
+</resources>

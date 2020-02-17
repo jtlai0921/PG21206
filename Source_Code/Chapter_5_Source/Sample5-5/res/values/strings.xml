@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sample_explain">Intent常見用法舉例</string>
+    <string name="app_name">Intent範例</string>
+    
+    <string name="button_start_activity">啓動新的Activity</string>
+    <string name="button_start_service">啓動新的Service</string>
+    <string name="button_stop_service">停止已啓動的Service</string>    
+    <string name="button_call_dial">呼叫電話撥號界面</string>
+    <string name="button_call_phone">撥打電話</string>
+    <string name="button_send_sms">呼叫發送短信界面</string>
+    <string name="button_send_email">呼叫發送電子郵件界面</string>
+    <string name="button_market_search">搜尋市場應用程式</string>
+    
+    <string name="secondary_text">我是新啓動的Activity</string>
+</resources>

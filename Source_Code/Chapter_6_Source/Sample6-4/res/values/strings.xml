@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">讀取網絡圖片</string>
+    
+    <string name="button_url">讀取Google Logo圖片(URLConnection方式)</string>
+    <string name="button_http_url">讀取Android機器人圖片(HttpURLConnection方式)</string>
+</resources>

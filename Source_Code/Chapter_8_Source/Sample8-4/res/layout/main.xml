@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:id="@+id/msg_display" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginTop="2.0dip"
+		android:visibility="gone" />
+
+	<LinearLayout android:id="@+id/l1" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="2.0dip" android:layout_marginLeft="5.0dip"
+		android:layout_marginRight="5.0dip" android:layout_alignParentBottom="true">
+
+		<Button android:id="@+id/button_forward" android:text="@string/button_forward"
+			android:layout_weight="1.0" android:layout_marginLeft="2.0dip"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+		<Button android:id="@+id/button_reverse" android:text="@string/button_reverse"
+			android:layout_weight="1.0" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+	</LinearLayout>
+
+
+	<com.google.android.maps.MapView
+		android:id="@+id/mapview" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:enabled="true"
+		android:clickable="true" android:apiKey="03jjUVSVvFTVGqkz5tpPjeAonJPW5_L4DwGc9aA"
+		android:layout_above="@id/l1" android:layout_below="@id/msg_display" />
+
+
+</RelativeLayout>

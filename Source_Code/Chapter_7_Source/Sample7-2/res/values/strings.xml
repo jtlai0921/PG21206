@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">簡易錄音機</string>
+    
+    <string name="prefix_status">當前狀態：</string>
+    <string name="msg_recording">正在錄音...</string>
+    <string name="msg_stopped">已停止錄音</string>
+    <string name="no_any_record">無任何錄音文件</string>
+    
+    <string name="button_ok">確認</string>
+    <string name="button_cancel">取消</string>
+    
+    <string name="error_msg_sdcard_unavailable">SD卡錯誤，請檢查！</string>
+</resources>

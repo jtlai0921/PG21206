@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textView">這是一個很長很長的，紅色的具有跑馬燈效果的TextView示範</string>
+    <string name="editText">這是一個EditText</string>
+    <string name="not_editable">這是一個3行\n&lt;font color=”ffffff”&gt;但不能修改的</string>
+    <string name="app_name">TextView和EditText</string>
+</resources>

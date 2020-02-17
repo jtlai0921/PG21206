@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">簡易瀏覽器</string>
+    
+    <string name="toolbar_goback">後　退</string>
+    <string name="toolbar_forward">前　進</string>
+    <string name="toolbar_refresh">刷　新</string>
+    <string name="toolbar_stop">停　止</string>
+    <string name="url_address_hint">請輸入地址</string>
+    <string name="loading_page">頁面加載中...</string>
+    
+    <string name="execute_method">執行方法%s</string>
+    <string name="execute_error_msg">連結出錯，%s</string>
+</resources>

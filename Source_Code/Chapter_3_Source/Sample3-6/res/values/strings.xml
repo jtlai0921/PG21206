@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">興趣：</string>
+    <string name="sport">運動</string>
+    <string name="read">閱讀</string>
+    <string name="sing">唱歌</string>
+    <string name="dance">跳舞</string>
+    <string name="app_name">核取方塊範例</string>
+</resources>

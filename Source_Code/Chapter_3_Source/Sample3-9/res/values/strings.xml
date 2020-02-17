@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="txt_title">當前時間是：</string>
+	<string name="btn_sumit">獲取時間</string>
+    <string name="app_name">時間設置</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">簡易MP3播放器</string>
+    
+    <string name="ds_res_raw">從資源文件res/raw載入MP3</string>
+    <string name="ds_sdcard">從SD卡目錄載入MP3</string>
+    <string name="ds_network">從網絡載入MP3</string>
+    <string name="current_mp3_path">當前播放MP3路徑：</string>
+    
+    <string name="msg_playing">正在播放！</string>
+    <string name="msg_pasued">暫停播放！</string>
+    <string name="msg_continued">繼續播放！</string>
+    <string name="msg_stopped">停止播放！</string>
+    <string name="play_completion">播放完畢！</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">簡易列表</string>
+    <string name="array_adapter">使用ArrayAdapter建構列表</string>
+    <string name="simple_adapter">使用SimpleAdapter建構列表</string>
+</resources>
+

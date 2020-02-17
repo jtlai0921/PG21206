@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">提示範例</string>
+    <string name="dialog_title">對話框標題</string>
+    <string name="dialog_content">對話框內容</string>
+    <string name="dialog">對話框提示</string>
+    <string name="toast">Toast提示</string>
+    <string name="toast_content">Toast內容</string>
+</resources>

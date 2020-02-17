@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:id="@+id/l1" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginTop="5.0dip"
+			android:text="@string/nick_name" android:layout_marginLeft="3.0dip"
+			android:textColor="@color/common_text" android:textStyle="bold"
+			android:textAppearance="?android:textAppearanceMedium" />
+
+		<EditText android:id="@+id/txt_nick_name"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="8.0dip" android:layout_weight="2.0" />
+
+		<Button android:id="@+id/button_connect" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginTop="5.0dip"
+			android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip"
+			android:layout_weight="1.0" android:text="@string/button_connect" />
+	</LinearLayout>
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		
+			
+		<LinearLayout android:id="@+id/l2" android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true">
+
+			<Button android:id="@+id/button_send" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5.0dip"
+				android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+				android:layout_weight="1.0" android:text="@string/button_send" />
+
+			<Button android:id="@+id/button_clear" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_marginTop="5.0dip"
+				android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+				android:layout_weight="1.0" android:text="@string/button_clear" />
+
+		</LinearLayout>
+
+		<EditText android:id="@+id/txt_message"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginTop="5.0dip" android:layout_marginLeft="5.0dip"
+			android:layout_marginRight="5.0dip"
+			android:layout_above="@id/l2" android:hint="@string/send_message_hint"/>
+			
+		<EditText android:id="@+id/txt_chat_log"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_marginTop="5.0dip" android:layout_marginLeft="5.0dip"
+			android:layout_marginRight="5.0dip" android:layout_below="@id/l1"
+			android:layout_above="@id/txt_message"
+			android:gravity="top"/>
+		
+		
+	</RelativeLayout>
+
+
+
+
+
+</LinearLayout>

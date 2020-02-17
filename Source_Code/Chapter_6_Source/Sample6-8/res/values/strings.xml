@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">藍牙操作範例</string>
+    
+    <string name="button_enable">打　　開</string>
+    <string name="button_disable">關　　閉</string>
+    <string name="button_search">搜尋藍牙</string>
+    <string name="button_cancel">停止搜尋</string>
+    
+    <string name="bluetooth_status">藍牙狀態：</string>
+    <string name="bluetooth_enabled">開　啓</string>
+    <string name="bluetooth_disabled">關　閉</string>
+    <string name="no_any_device">無任何藍牙設備</string>
+    <string name="item_name_prefix">設備名：</string>
+    <string name="item_address_prefix">地址：</string>
+    <string name="no_device_name">&lt;無設備名&gt;</string>
+</resources>
+

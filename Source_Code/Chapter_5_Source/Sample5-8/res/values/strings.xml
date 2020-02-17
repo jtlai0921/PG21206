@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">SQLite資料庫的新增、關閉及刪除</string>
+    <string name="app_name">SQLite資料庫新增一</string>
+    
+    <string name="label_input">輸入資料庫名稱：</string>
+    <string name="button_create">新增資料庫</string>
+    <string name="button_close">關閉資料庫</string>
+    <string name="button_delete">刪除資料庫</string>
+    
+    <string name="msg_create_success">成功新增資料庫</string>
+    <string name="msg_close_success">成功關閉資料庫</string>
+    <string name="msg_delete_success">成功刪除資料庫</string>
+    <string name="msg_delete_failure">資料庫不存在或已被刪除</string>
+    <string name="msg_create_failure">資料庫新增或打開失敗</string>
+</resources>

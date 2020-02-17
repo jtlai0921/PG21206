@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义ListView每行数据的显示布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	<!-- 定义联系人姓名 -->
+	<TextView android:id="@+id/list_item_contact_name"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:textAppearance="?android:textAppearanceMedium"
+		android:ellipsize="marquee" android:singleLine="true"
+		android:layout_marginLeft="8.0dip" android:layout_marginTop="3.0dip"
+		android:layout_marginBottom="3.0dip" />
+	
+	<!-- 定义联系人电话 -->	
+	<TextView android:id="@+id/label_phone" 
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:textAppearance="?android:textAppearanceSmall"
+		android:singleLine="true" android:text="@string/contact_phone"
+		android:layout_marginLeft="8.0dip" android:layout_marginTop="3.0dip"
+		android:layout_marginBottom="8.0dip" android:layout_below="@id/list_item_contact_name"/>	
+	<TextView android:id="@+id/list_item_contact_phone"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:textAppearance="?android:textAppearanceSmall"
+		android:ellipsize="marquee" android:singleLine="true"
+		android:layout_below="@id/list_item_contact_name"
+		android:layout_toRightOf="@id/label_phone"
+		android:layout_marginTop="3.0dip" android:layout_marginBottom="8.0dip"
+		android:layout_marginLeft="8.0dip" 
+		/>
+</RelativeLayout>

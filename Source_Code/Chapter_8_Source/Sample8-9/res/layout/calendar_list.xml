@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<LinearLayout android:id="@+id/l1" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:id="@+id/button_create_calendar"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip"
+			android:layout_marginRight="3.0dip" android:text="@string/button_create_calendar"
+			android:layout_weight="1.0" android:textAppearance="?android:textAppearanceSmall" />
+	</LinearLayout>
+
+	<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1.0"
+		android:layout_marginTop="10.0dip" android:cacheColorHint="#00000000"
+		android:dividerHeight="1.0dip" android:scrollbarStyle="outsideInset"
+		android:divider="@color/common_divide_line" android:layout_below="@id/l1" />
+
+	<TextView android:id="@android:id/empty" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_marginTop="10.0dip"
+		android:text="@string/no_calendar" android:gravity="center"
+		android:textAppearance="?android:textAppearanceMedium"
+		android:textStyle="bold" android:layout_below="@id/l1" />
+</RelativeLayout>

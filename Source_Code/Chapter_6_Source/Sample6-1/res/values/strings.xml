@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">網絡狀態信息查詢</string>
+    
+    <string name="button_query">查詢網絡狀態信息</string>
+    
+    <string name="network_unavailable_msg">無可用網絡</string>
+    <string name="network_available_msg">網絡可用</string>
+    
+    <string name="network_available">網絡是否可用：</string>
+    <string name="network_type">網絡類型：</string>
+    <string name="network_subtype">SubType：</string>
+    <string name="network_status">網絡連結狀態(粗略)：</string>
+    <string name="network_status_detail">網絡連結狀態(詳細)：</string>
+    <string name="network_extra">連結附加信息：</string>
+    <string name="network_roaming">網絡是否漫遊：</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+</resources>

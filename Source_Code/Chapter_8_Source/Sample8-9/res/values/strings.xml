@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Google日曆服務範例</string>
+
+	<string name="button_login">登　錄</string>
+	<string name="button_clear">清　除</string>
+	<string name="button_create_calendar">新增日曆</string>
+	<string name="button_create_event">新增活動事件</string>
+	
+	<string name="ctx_menu_update_calendar">更新日曆</string>
+	<string name="ctx_menu_delete_calendar">刪除日曆</string>
+	<string name="ctx_menu_update_event">更新活動</string>
+	<string name="ctx_menu_delete_event">刪除活動</string>
+	
+	
+	<string name="label_goole_email">Google帳戶名：</string>
+	<string name="label_password">登錄密碼：</string>
+	
+	<string name="login_tips">歡迎使用Google日曆服務，請先登錄.</string>
+	<string name="operate_cal_tips">長按列表中日曆可彈出上下文選單對日曆進行更新、刪除操作</string>
+	<string name="no_calendar">無任何日曆</string>
+	<string name="no_calendar_events">無任何日曆事件</string>
+	<string name="error_msg_invalid_account">帳戶驗證失敗，請輸新輸入！</string>
+	
+	<string name="msg_searching_all_calendars">正在獲取所有日曆數據...</string>
+	<string name="msg_creating_calendar">正在新增日曆...</string>
+	<string name="msg_updating_calendar">正在更新日曆...</string>
+	<string name="msg_deleting_calendar">正在刪除日曆...</string>
+	<string name="msg_searching_all_events">正在獲取日曆所有活動事件...</string>
+	<string name="msg_creating_event">正在新增日曆活動事件...</string>
+	<string name="msg_updating_event">正在更新日曆活動事件...</string>
+	<string name="msg_deleting_event">正在刪除日曆活動事件...</string>
+	
+	<string name="msg_created_success">新增成功！</string>
+	<string name="msg_updated_success">更新成功！</string>
+	<string name="msg_deleted_success">刪除成功！</string>
+	
+	
+	<string name="new_calendar_title">新增的日曆</string>
+	<string name="new_calendar_summary">這是通過範例程序新增的日曆</string>
+	<string name="update_calendar_title">此日曆被更新了</string>
+	
+	<string name="new_event_title">新添加日曆活動事件</string>
+	<string name="new_event_content">通過範例程序添加活動事件</string>
+	<string name="update_event_title">此事件被更新了</string>
+</resources>

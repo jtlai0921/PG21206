@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">佈局範例</string>
+    <string name="linear">線性佈局</string>
+    <string name="frame">單幀佈局</string>
+    <string name="relative">相對佈局</string>
+    <string name="abs">絕對佈局</string>
+</resources>

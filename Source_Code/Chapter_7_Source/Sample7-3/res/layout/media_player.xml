@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<SurfaceView android:id="@+id/surface_view"
+		android:layout_width="fill_parent" android:layout_height="300dp"
+		android:layout_gravity="center">
+	</SurfaceView>
+
+	<LinearLayout android:id="@+id/l1" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+		android:layout_alignParentBottom="true">
+		<ImageButton android:id="@+id/button_start"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/icon_start" android:padding="8.0dip"
+			android:layout_weight="1.0" />
+		<ImageButton android:id="@+id/button_pause"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/icon_pause" android:padding="8.0dip"
+			android:layout_weight="1.0" />
+		<ImageButton android:id="@+id/button_stop"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:src="@drawable/icon_stop" android:padding="8.0dip"
+			android:layout_weight="1.0" />
+	</LinearLayout>
+
+	<SeekBar android:id="@+id/video_seekbar" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_marginTop="20.0dip"
+		android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+		android:layout_above="@id/l1" />
+</RelativeLayout>

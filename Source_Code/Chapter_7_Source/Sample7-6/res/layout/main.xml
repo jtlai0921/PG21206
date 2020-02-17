@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button android:id="@+id/button_geometry" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="5.0dip"
+		android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip"
+		android:text="@string/button_geometry" android:textAppearance="?android:textAppearanceMedium" />
+
+	<Button android:id="@+id/button_text" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="5.0dip"
+		android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip"
+		android:text="@string/button_text" android:textAppearance="?android:textAppearanceMedium" />
+
+	<Button android:id="@+id/button_bitmap" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="5.0dip"
+		android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip"
+		android:text="@string/button_bitmap" android:textAppearance="?android:textAppearanceMedium" />
+
+	<Button android:id="@+id/button_matrix_zoom"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip"
+		android:layout_marginRight="5.0dip" android:text="@string/button_matrix_zoom"
+		android:textAppearance="?android:textAppearanceMedium" />
+
+	<Button android:id="@+id/button_shader" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="5.0dip"
+		android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip"
+		android:text="@string/button_shader" android:textAppearance="?android:textAppearanceMedium" />
+</LinearLayout>

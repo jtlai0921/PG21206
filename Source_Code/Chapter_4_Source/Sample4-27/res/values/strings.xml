@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="send">發送簡訊</string>
+    <string name="send_success">已發送</string>
+    <string name="send_failure">發送失敗</string>
+    <string name="send_reached">已送達</string>
+    <string name="no_send_reached">未送達</string>
+    <string name="no">無信號</string>
+    <string name="rno">r無信號</string>
+    <string name="app_name">發送簡訊範例</string>
+</resources>

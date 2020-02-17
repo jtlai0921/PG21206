@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>WebView中使用JavaScript示例</title>
+<script type="text/javascript">
+	function executeAlert(){
+		alert('WebView執行JavaScript彈出Alert警告對話框');
+	}
+	
+	function executeConfirm(){
+		if (confirm('請確認刪除此記錄？')){
+			alert('已刪除記錄');
+		};
+	} 
+	
+	function executePrompt(){
+		var str = window.prompt("請輸入用戶名","abcdef");
+		alert('您輸入的用戶名為：' + str);
+	}
+</script>
+</head>
+<body>
+	<h4>WebView JavaScript Alert(警告)對話框演示</h4>
+	<input type="button" value="Alert(警告)對話框" onclick="executeAlert();" />
+	<br/><br/>
+	
+	<h4>WebView JavaScript Confirm(確認)對話框演示</h4>
+	<input type="button" value="Confirm(確認)對話框" onclick="executeConfirm();" />
+	<br/><br/>
+	
+	<h4>WebView JavaScript Prompt(提示)對話框演示</h4>
+	<input type="button" value="Prompt(提示)對話框" onclick="executePrompt();" />
+</body>
+</html>

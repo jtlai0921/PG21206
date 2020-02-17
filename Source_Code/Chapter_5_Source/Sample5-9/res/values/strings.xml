@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">使用SQLiteOpenHelper新增、更新資料庫</string>
+    <string name="app_name">SQLiteOpenHelper範例</string>
+    
+    <string name="button_create">新增資料庫</string>
+    <string name="button_upgrade">更新資料庫結構</string>
+    
+    <string name="msg_create_success">資料庫新增成功</string>
+    <string name="msg_upgrade_success">資料庫更新成功</string>
+</resources>

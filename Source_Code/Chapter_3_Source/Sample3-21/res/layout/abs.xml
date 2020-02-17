@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<Button android:id="@+id/linear"
+		android:layout_x="20dp"
+		android:layout_y="20dp"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/linear"/>
+   	<Button android:id="@+id/frame"
+   		android:layout_x="50dp"
+		android:layout_y="50dp"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/frame"/>
+   	<Button android:id="@+id/relative"
+   		android:layout_x="80dp"
+		android:layout_y="80dp"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/relative"/>
+   	<Button android:id="@+id/abs"
+   		android:layout_x="110dp"
+		android:layout_y="110dp"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/abs"/>
+</AbsoluteLayout>

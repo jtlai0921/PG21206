@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:layout_marginTop="2dip">
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:id="@+id/ssid_name" android:layout_width="100dip"
+			android:layout_height="wrap_content" android:gravity="left"
+			android:layout_marginTop="2dip" android:layout_marginBottom="2dip"
+			android:layout_marginLeft="2dip" android:text="@string/title_ssid"
+			android:textColor="@color/common_text" android:textStyle="bold" />
+
+		<TextView android:id="@+id/signal_strength"
+			android:layout_width="80dip" android:layout_height="wrap_content"
+			android:gravity="center" android:layout_marginTop="2dip"
+			android:layout_marginBottom="2dip" android:layout_marginLeft="2dip"
+			android:text="@string/title_signal_strength" android:textColor="@color/common_text"
+			android:textStyle="bold" />
+
+		<TextView android:id="@+id/frequency" android:layout_width="80dip"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:layout_marginTop="2dip" android:layout_marginBottom="2dip"
+			android:layout_marginLeft="2dip" android:text="@string/title_frequency"
+			android:textColor="@color/common_text" android:textStyle="bold" />
+
+		<TextView android:id="@+id/encrypt" android:layout_width="60dip"
+			android:layout_height="wrap_content" android:gravity="left"
+			android:layout_marginTop="2dip" android:layout_marginBottom="2dip"
+			android:layout_marginLeft="2dip" android:text="@string/title_encypt"
+			android:textColor="@color/common_text" android:textStyle="bold" />
+	</TableRow>
+</TableLayout>
+

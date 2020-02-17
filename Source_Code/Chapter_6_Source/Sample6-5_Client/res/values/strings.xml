@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HTTP用戶註冊範例</string>
+    
+    <string name="reg_username">用戶帳號：</string>
+    <string name="reg_email">郵件地址：</string>
+    <string name="button_get">以GET方式註冊</string>
+    <string name="button_post">以POST方式註冊</string>
+    <string name="response_title">伺服器返回數據：</string>
+    <string name="error_msg">請求錯誤！錯誤信息：</string>
+</resources>

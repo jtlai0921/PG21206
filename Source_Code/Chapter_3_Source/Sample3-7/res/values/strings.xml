@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="change_img">換圖</string>
+    <string name="change_alpha">透明化</string>
+    <string name="app_name">圖片視圖範例</string>
+</resources>

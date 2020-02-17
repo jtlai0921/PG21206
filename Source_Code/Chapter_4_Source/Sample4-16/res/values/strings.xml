@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="portrait">竪向顯示</string>
+    <string name="landscape">橫向顯示</string>
+    <string name="app_name">顯示方向</string>
+</resources>

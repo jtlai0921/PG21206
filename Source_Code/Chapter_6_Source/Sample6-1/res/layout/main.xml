@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button android:id="@+id/button_query" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/button_query"
+		android:layout_marginTop="5.0dip" android:layout_alignParentBottom="true" />
+
+	<LinearLayout android:id="@+id/l1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_alignParentTop="true" android:layout_marginTop="10.0dip">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textAppearance="?android:textAppearanceMedium"
+			android:text="@string/network_available" android:layout_weight="1.0" />
+
+		<TextView android:id="@+id/network_available"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_weight="1.0" />
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/l2" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_below="@id/l1" android:layout_marginTop="10.0dip">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textAppearance="?android:textAppearanceMedium"
+			android:text="@string/network_type" android:layout_weight="1.0" />
+
+		<TextView android:id="@+id/network_type"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_weight="1.0" />
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/l3" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_below="@id/l2" android:layout_marginTop="10.0dip">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textAppearance="?android:textAppearanceMedium"
+			android:text="@string/network_subtype" android:layout_weight="1.0" />
+
+		<TextView android:id="@+id/network_subtype"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_weight="1.0" />
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/l4" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_below="@id/l3" android:layout_marginTop="10.0dip">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textAppearance="?android:textAppearanceMedium"
+			android:text="@string/network_status" android:layout_weight="1.0" />
+
+		<TextView android:id="@+id/network_status"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_weight="1.0" />
+	</LinearLayout>
+	
+	<LinearLayout android:id="@+id/l5" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_below="@id/l4" android:layout_marginTop="10.0dip">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textAppearance="?android:textAppearanceMedium"
+			android:text="@string/network_status_detail" android:layout_weight="1.0" />
+
+		<TextView android:id="@+id/network_status_detail"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_weight="1.0" />
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/l6" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_below="@id/l5" android:layout_marginTop="10.0dip">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textAppearance="?android:textAppearanceMedium"
+			android:text="@string/network_extra" android:layout_weight="1.0" />
+
+		<TextView android:id="@+id/network_extra"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_weight="1.0" />
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/l7" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_below="@id/l6" android:layout_marginTop="10.0dip">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textAppearance="?android:textAppearanceMedium"
+			android:text="@string/network_roaming" android:layout_weight="1.0" />
+
+		<TextView android:id="@+id/network_roaming"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_weight="1.0" />
+	</LinearLayout>
+
+</RelativeLayout>

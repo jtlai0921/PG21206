@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google網頁搜索服務範例</string>
+    
+    <string name="button_search">搜索</string>
+    <string name="search_keyword_hint">輸入要搜索的關鍵字</string>
+    <string name="no_search_result">無搜索結果</string>
+    
+    <string name="msg_searching">正在搜索，請稍候...</string>
+</resources>

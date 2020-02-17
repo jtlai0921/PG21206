@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="items">
+        <item>選項一</item>
+        <item>選項二</item>
+        <item>選項三</item>
+        <item>選項四</item>
+        <item>選項五</item>
+        <item>選項六</item>
+        <item>選項七</item>
+        <item>選項八</item>
+	</string-array>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5.0dip">
+		<TextView android:layout_width="wrap_content" android:text="@string/bluetooth_status"
+			android:layout_height="wrap_content" android:layout_weight="1.0"
+			android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+			android:textStyle="bold" android:textAppearance="?android:textAppearanceMedium" />
+
+		<TextView android:id="@+id/bluetooth_current_status"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1.0" android:layout_marginLeft="5.0dip"
+			android:layout_marginRight="5.0dip" android:textAppearance="?android:textAppearanceMedium"
+			android:textColor="@color/status" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5.0dip">
+		<Button android:id="@+id/button_enable" android:layout_width="wrap_content"
+			android:text="@string/button_enable" android:layout_height="wrap_content"
+			android:layout_weight="1.0" android:layout_marginLeft="5.0dip"
+			android:layout_marginRight="5.0dip" android:textAppearance="?android:textAppearanceMedium" />
+
+		<Button android:id="@+id/button_disable" android:text="@string/button_disable"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1.0" android:layout_marginLeft="5.0dip"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_marginRight="5.0dip" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="5.0dip">
+		<Button android:id="@+id/button_search" android:layout_width="wrap_content"
+			android:text="@string/button_search" android:layout_height="wrap_content"
+			android:layout_weight="1.0" android:layout_marginLeft="5.0dip"
+			android:layout_marginRight="5.0dip" android:textAppearance="?android:textAppearanceMedium" />
+
+		<Button android:id="@+id/button_cancel" android:text="@string/button_cancel"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_weight="1.0" android:layout_marginLeft="5.0dip"
+			android:textAppearance="?android:textAppearanceMedium"
+			android:layout_marginRight="5.0dip" />
+	</LinearLayout>
+		
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_marginTop="5.0dip">
+		<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:layout_weight="1.0"
+			android:layout_marginTop="6dp" android:cacheColorHint="#00000000"
+			android:dividerHeight="1.0dip" android:scrollbarStyle="outsideInset"
+			android:divider="@color/common_divide_line" />
+
+		<TextView android:id="@android:id/empty"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:layout_marginTop="5.0dip" android:text="@string/no_any_device"
+			android:gravity="center" android:textAppearance="?android:textAppearanceMedium"
+			android:textStyle="bold" />
+	</RelativeLayout>
+
+</LinearLayout>

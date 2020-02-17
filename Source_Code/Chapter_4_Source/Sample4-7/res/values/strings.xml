@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="txt">準備載入</string>
+	<string name="btn">開始載入</string>
+    <string name="app_name">非同步任務範例</string>
+</resources>

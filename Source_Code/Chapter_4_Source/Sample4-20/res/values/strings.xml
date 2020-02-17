@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy">複製</string>
+    <string name="paste">貼上</string>
+    <string name="app_name">剪貼板範例</string>
+</resources>

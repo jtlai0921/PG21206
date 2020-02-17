@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Google翻譯服務範例</string>
+
+	<string name="label_source">源語言：</string>
+	<string name="label_target">目標語：</string>
+	<string name="label_result">翻譯結果：</string>
+
+	<string name="button_translate">翻　譯</string>
+	<string name="button_clear">清　除</string>
+	<string name="button_submit">確　定</string>
+	<string name="button_cancel">取　消</string>
+
+	<string name="msg_translating">翻譯中，請稍候...</string>
+	<string name="msg_translate_failure">翻譯時發生錯誤！</string>
+</resources>

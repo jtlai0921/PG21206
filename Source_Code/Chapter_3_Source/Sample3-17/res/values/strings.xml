@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">選項卡範例</string>
+    <string name="tab_01">選項卡一</string>
+    <string name="tab_02">選項卡二</string>
+    <string name="tab_03">選項卡三</string>
+</resources>

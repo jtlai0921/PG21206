@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">搜尋服務</string>
+    <string name="description">搜尋描述</string>
+    <string name="search_hint">請輸入搜尋內容</string>
+    <string name="button_search">搜尋</string>
+    <string name="query_prefix">查詢的內容:</string>
+</resources>

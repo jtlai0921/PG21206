@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">顯示當前位置的地圖瀏覽器</string>
+    
+    <string name="button_normal">普通視圖</string>
+    <string name="button_satellite">衛星視圖</string>
+    <string name="button_traffic">交通視圖</string>
+    
+</resources>

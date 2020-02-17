@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_down_back">按下Back鍵</string>
+    <string name="key_down_menu">按下Menu鍵</string>
+    <string name="app_name">按鍵範例</string>
+</resources>

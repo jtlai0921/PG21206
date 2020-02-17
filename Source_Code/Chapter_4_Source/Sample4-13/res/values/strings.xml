@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="display_size">顯示容量</string>
+    <string name="app_name">SD卡範例</string>
+</resources>

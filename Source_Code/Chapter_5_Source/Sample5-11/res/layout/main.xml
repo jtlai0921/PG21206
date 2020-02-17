@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/title"
+		android:gravity="center" />
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/label_input" 
+		android:layout_marginTop="30.0dip"/>
+	
+	<!-- 定义内容输入框 -->
+	<EditText android:id="@+id/edit_pref_input_data" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+	
+	<!-- 定义按钮 -->
+	<LinearLayout android:orientation="horizontal"
+	    android:layout_width="fill_parent"  android:layout_height="wrap_content">
+		<Button android:id="@+id/button_save_pref"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/button_save_pref" android:layout_weight="1.0"/>
+		<Button android:id="@+id/button_load_pref"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/button_load_pref" android:layout_weight="1.0"/>	
+	</LinearLayout>
+	
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/label_load" 
+		android:layout_marginTop="30.0dip"/>
+	<!-- 定义文件内容显示区 -->
+	<TextView android:layout_width="fill_parent" android:id="@+id/pref_content"
+		android:layout_height="wrap_content" android:layout_marginTop="10.0dip"/>
+</LinearLayout>

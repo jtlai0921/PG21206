@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="address">台北101</string>
+    <string name="txt">接近提示開始了</string>
+    <string name="near">接近目的地了</string>
+    <string name="app_name">趨近警告範例</string>
+</resources>

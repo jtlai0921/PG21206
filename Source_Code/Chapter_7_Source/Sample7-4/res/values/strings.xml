@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">相機拍照範例</string>
+    
+    <string name="button_preview">預覽</string>
+    <string name="button_take">拍照</string>
+</resources>

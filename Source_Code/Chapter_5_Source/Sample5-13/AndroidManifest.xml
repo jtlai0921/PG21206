@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.uppowerstudio.chapter5.phonebook" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<!-- 联系人列表组件 -->
+		<activity android:name=".ListContactsActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<!-- 添加联系人组件 -->
+		<activity android:name=".AddContactActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="action_add_contact" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<!-- 更新联系人组件 -->
+		<activity android:name=".UpdateContactActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="action_update_contact" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<!-- 声明ContentProvider组件 -->
+		<provider android:name=".provider.PhoneBookProvider"
+			android:authorities="com.uppowerstudio.chapter5.phonebook.provider" />
+	</application>
+
+	<uses-sdk android:minSdkVersion="4" />
+
+</manifest> 

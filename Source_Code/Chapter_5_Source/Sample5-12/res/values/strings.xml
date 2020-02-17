@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Preference類型示範</string>
+    <string name="app_name">Preference類型示範</string>
+    <string name="button_xml">XML方式新增</string>
+    <string name="button_code">代碼方式新增</string>
+    
+    <!-- Preferences -->
+    <string name="adv_settings">進階設置</string>
+    <string name="normal">一般設置</string>
+    <string name="advanced">進階設置</string>
+    
+    <string name="pref_checkbox_title">複選框類型Preference</string>
+    <string name="pref_checkbox_on">示範複選框類型Preference的使用。當前狀態：選中</string>
+    <string name="pref_checkbox_off">示範複選框類型Preference的使用。當前狀態：未選中</string>
+    
+    <string name="pref_list_title">列表類型Preference</string>
+    <string name="pref_list_dialog_title">請選擇列表項</string>
+    <string name="pref_list_summary">示範列表類型Preference的使用</string>
+    
+    <string name="pref_edit_title">輸入框類型Preference</string>
+    <string name="pref_edit_dialog_title">請輸入值</string>
+    <string name="pref_edit_summary">示範輸入框類型Preference的使用</string>
+    
+    <string name="pref_use_ringtone_title">啓用鈴聲</string>
+    <string name="pref_use_ringtone_on">示範不同Preferences之間的依賴性。當前狀態：選中</string>
+    <string name="pref_use_ringtone_off">示範不同Preferences之間的依賴性。當前狀態：未選中</string>
+    
+    <string name="pref_ringtone_title">選擇鈴聲類型</string>
+    
+</resources>

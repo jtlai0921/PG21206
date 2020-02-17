@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="arrays_content">
+		<item>onCreate</item>
+	    <item>onDestroy</item>
+	    <item>onPause</item>
+	    <item>onResume</item>
+	    <item>onStart</item>
+	   	<item>onStop</item>
+	</string-array>
+</resources>

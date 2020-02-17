@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 根節點，PreferenceScreen可以嵌套使用 -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/adv_settings">
+	
+	<!-- 定義Preference分類，並設置標題為“一般設置” -->
+	<PreferenceCategory android:title="@string/normal">
+		<!-- 定義複選框類型的Preference -->
+		<CheckBoxPreference android:key="pref_checkbox_key"
+			android:title="@string/pref_checkbox_title" android:defaultValue="true"
+			android:summaryOn="@string/pref_checkbox_on" android:summaryOff="@string/pref_checkbox_off" />
+		
+		<!-- 定義列表類型的Preference -->
+		<ListPreference android:key="pref_list_key"
+			android:dialogTitle="@string/pref_list_dialog_title" android:entries="@array/pref_list_label"
+			android:entryValues="@array/pref_list_value" android:title="@string/pref_list_title"
+			android:defaultValue="1" android:summary="@string/pref_list_summary" />
+
+		<!-- 定義輸入框類型的Preference -->
+		<EditTextPreference android:key="pref_edit_key"
+			android:title="@string/pref_edit_title" android:dialogTitle="@string/pref_edit_dialog_title"
+			android:summary="@string/pref_edit_summary" android:defaultValue="" />
+	</PreferenceCategory>
+	
+	<!-- 定義另一個Preference分類，並設置標題為“進階設置” -->
+	<PreferenceCategory android:title="@string/advanced">
+		<!-- 定義複選框類型的Preference，用於控制是否啓用下面的鈴聲選擇Preference -->
+		<CheckBoxPreference android:key="pref_use_ringtone"
+			android:title="@string/pref_use_ringtone_title" android:defaultValue="true"
+			android:summaryOn="@string/pref_use_ringtone_on" android:summaryOff="@string/pref_use_ringtone_off" />
+		<!-- 定義鈴聲選擇類型的Preference -->
+		<RingtonePreference android:key="pref_ringtone_key"
+			android:title="@string/pref_ringtone_title" android:dependency="pref_use_ringtone" />
+	</PreferenceCategory>	
+</PreferenceScreen>
+

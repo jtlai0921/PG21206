@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">WebView範例</string>
+
+	<string name="button_load_url">loadUrl方法加載網頁</string>
+	<string name="button_load_data">loadData方法加載網頁</string>
+	
+	<string name="load_data">Welcome to you!</string>
+</resources>

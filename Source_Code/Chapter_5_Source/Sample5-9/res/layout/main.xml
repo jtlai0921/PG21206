@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:layout_gravity="center_horizontal">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/title"
+		android:gravity="center" />
+	
+	<!-- 定义按钮 -->
+	<LinearLayout android:orientation="horizontal"
+	    android:layout_width="fill_parent"  android:layout_height="wrap_content"
+	    android:layout_marginTop="30.0dip">
+		<Button android:id="@+id/button_create_db"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/button_create" android:layout_weight="1.0"/>
+		<Button android:id="@+id/button_upgrade_db"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/button_upgrade" android:layout_weight="1.0"/>
+	</LinearLayout>
+</LinearLayout>

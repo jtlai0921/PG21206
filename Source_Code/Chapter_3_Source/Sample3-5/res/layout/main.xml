@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/display_sex"/>
+    		
+	<RadioGroup android:id="@+id/sexGroup" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		<RadioButton android:id="@+id/radio_male" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/radio_male"/>
+		<RadioButton android:id="@+id/radio_female" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/radio_famale"/>
+	</RadioGroup>
+	
+	<TextView android:id="@+id/display"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/display_agree"/>
+	
+	<RadioGroup android:id="@+id/agreeGroup" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		<RadioButton android:id="@+id/radio_agree" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/radio_agree"/>
+		<RadioButton android:id="@+id/radio_disagree" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/radio_disagree"/>
+	</RadioGroup>
+	
+	<TextView  
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="@string/not_group"/>
+	<RadioButton android:id="@+id/radio_01" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="@string/radio_01"/>
+	<RadioButton android:id="@+id/radio_02" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="@string/radio_02"/>
+</LinearLayout>

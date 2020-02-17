@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/baseStyle">
+	<Button style="@style/btnStyle"
+		android:text="@string/txt"/>
+	<TextView style="@style/baseStyle"
+		android:text="@string/txt"/>
+</LinearLayout>

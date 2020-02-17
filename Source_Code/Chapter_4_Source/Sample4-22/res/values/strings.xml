@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Google帳號操作範例</string>
+    
+    <string name="button_list_account">獲取Google帳號信息</string>
+    <string name="button_create_account">新增Google帳號</string>
+    <string name="button_create">新增</string>
+    <string name="button_cancel">取消</string>
+    <string name="account_name">帳號名：</string>
+    <string name="account_password">密　碼：</string>
+    <string name="account_type">帳號類型：</string>
+    <string name="lb_account_list">帳號列表：</string>
+   	<string name="lb_account">帳號</string>
+</resources>

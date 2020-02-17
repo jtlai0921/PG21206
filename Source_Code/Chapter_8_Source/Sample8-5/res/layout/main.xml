@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/label_goole_email"
+		android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip"
+		android:layout_marginRight="3.0dip" android:textAppearance="?android:textAppearanceMedium" />
+
+	<EditText android:id="@+id/txt_google_account"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip"
+		android:layout_marginRight="3.0dip" android:singleLine="true" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/label_password"
+		android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip"
+		android:layout_marginRight="3.0dip" android:textAppearance="?android:textAppearanceMedium" />
+
+	<EditText android:id="@+id/txt_google_password"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="3.0dip" android:layout_marginTop="5.0dip"
+		android:layout_marginRight="3.0dip" android:singleLine="true"
+		android:password="true" />
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<Button android:id="@+id/button_login" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginLeft="3.0dip"
+			android:layout_marginTop="5.0dip" android:layout_marginRight="3.0dip"
+			android:text="@string/button_login" android:layout_weight="1.0"
+			android:textAppearance="?android:textAppearanceMedium" />
+
+		<Button android:id="@+id/button_clear" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginLeft="3.0dip"
+			android:layout_marginTop="5.0dip" android:layout_marginRight="3.0dip"
+			android:text="@string/button_clear" android:layout_weight="1.0"
+			android:textAppearance="?android:textAppearanceMedium" />
+	</LinearLayout>
+</LinearLayout>

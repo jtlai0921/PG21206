@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="chart_type_label">
+        <item>折線圖</item>
+        <item>長條圖</item>
+        <item>圓餅圖</item>
+        <item>地     圖</item>
+        <item>散點圖</item>
+        <item>維恩圖</item>
+        <item>雷達圖</item>
+        <item>二維條碼圖</item>
+        <item>數學公式圖</item>
+        <item>Google儀錶盤圖</item>
+        <item>複雜繪圖示例</item>
+	</string-array>
+	
+	<string-array name="chart_type_value">
+		<item>lc</item>
+        <item>bc</item>
+        <item>pc</item>
+        <item>map</item>
+        <item>sc</item>
+        <item>vc</item>
+        <item>rc</item>
+        <item>qr</item>
+        <item>fr</item>
+        <item>gom</item>
+        <item>cmp</item>
+	</string-array>
+</resources>

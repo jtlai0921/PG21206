@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">文件創建、讀寫操作範例</string>
+    <string name="app_name">文件操作範例</string>
+    <string name="label_input">請輸入內容：</string>
+    <string name="label_load">從文件讀取的內容為：</string>
+    <string name="button_save_file">儲存檔案</string>
+    <string name="button_load_file">讀取檔案內容</string>    	
+</resources>

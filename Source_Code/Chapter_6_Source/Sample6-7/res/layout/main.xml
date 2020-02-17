@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<HorizontalScrollView android:id="@+id/toolbar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:scrollbars="horizontal" android:background="#00000000"
+		android:layout_marginTop="5.0dip">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_weight="1" android:background="#000000FF"
+			android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal"
+				android:layout_weight="1" android:id="@+id/ll_toolbar">
+
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:orientation="vertical">
+					<ImageButton android:id="@+id/btn_goback"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:scaleType="fitXY" android:src="@drawable/icon_goback" />
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="@string/toolbar_goback"
+						android:layout_gravity="center_horizontal" />
+				</LinearLayout>
+
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:orientation="vertical">
+					<ImageButton android:id="@+id/btn_forward"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:scaleType="fitXY" android:src="@drawable/icon_forward" />
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="@string/toolbar_forward"
+						android:layout_gravity="center_horizontal" />
+				</LinearLayout>
+
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:orientation="vertical">
+					<ImageButton android:id="@+id/btn_refresh"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:scaleType="fitXY" android:src="@drawable/icon_refresh" />
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="@string/toolbar_refresh"
+						android:layout_gravity="center_horizontal" />
+				</LinearLayout>
+
+				<LinearLayout android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:orientation="vertical">
+					<ImageButton android:id="@+id/btn_stop"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:scaleType="fitXY" android:src="@drawable/icon_stop" />
+					<TextView android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="@string/toolbar_stop"
+						android:layout_gravity="center_horizontal" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</HorizontalScrollView>
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginLeft="5.0dip"
+		android:layout_marginRight="5.0dip">
+
+		<EditText android:id="@+id/url_address" android:paddingLeft="5.0sp"
+			android:saveEnabled="true" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginLeft="5.0dip"
+			android:singleLine="true" android:layout_marginTop="5.0dip"
+			android:selectAllOnFocus="true" android:hint="@string/url_address_hint"
+			android:text="http://localhost:8080/Sample6-7_Server/UsingJavascriptInWebView.html" />
+
+		<ImageButton android:id="@+id/btn_go" android:background="@drawable/selector_go"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginRight="1.0dip" android:layout_alignTop="@+id/url_address"
+			android:layout_alignRight="@+id/url_address"
+			android:layout_alignBottom="@+id/url_address" />
+	</RelativeLayout>
+
+	<WebView android:id="@+id/webview" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_marginLeft="5.0dip"
+		android:layout_marginRight="5.0dip" />
+</LinearLayout>
